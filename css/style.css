@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.social li{
+    display: inline;
+}
+.langBar{
+    display: inline;    
+}
+.socialBar{
+    display: inline-block;
+}
