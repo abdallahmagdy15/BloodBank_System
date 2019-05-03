@@ -6,19 +6,101 @@ body
     margin: 0;
     padding: 0;
 }
+/*--start header--*/
+header{
+    position: relative;
+    background-color: #415f77;
+    height: auto;
+    display: block;
+}
+header .headerRow1{
+    height: 66px;
+}
+header .headerRow2{
+    height: 100px;
+    background-color: #fff;
+    padding-left: 150px;
+}
+.headerRow2 .imgDiv{
+    padding-left: 0;
+}
+.headerRow2 .imgDiv img{
+    margin-top: 15px;
+    height: 70px;
+    width: auto;
+}
+.headerRow2 .telDiv , .headerRow2 .locationDiv{
+    padding-top: 15px; 
+}
+.headerRow2 i{
+    color: #f33456;
+}
+.headerRow2 p:nth-child(2){
+    opacity: 0.6;
+}
+.socialLink{
+    color: #fff;
+}
+.socialLink:hover{
+    color: #fffc;
+}
 .social li{
     display: inline;
 }
-.langBar{
-    display: inline;    
+.langDropdown{
+    background-color: #f33456;
+    border-color: #f33456;
 }
-.socialBar{
+.langDropdown:hover{
+    background-color: #ed5d77e6;
+    border-color:##ed5d77e6;
+}
+
+.socialBar , .langBar{
     display: inline-block;
+    padding-left: 150px;
+    height: 100%;
 }
-/*--start header--*/
-header 
-{
-	padding-bottom: 20px;
+.langBar{
+    padding: 0;
+}
+.socialBar ul{
+    margin-top:20.5px ;
+    height: auto;
+}
+.langBar Button{
+    margin-top:12.5px ;
+    height: 40px;
+}
+.social li {
+	margin-right: 20px;
+}
+nav{
+    height: 50px;
+    background-color: #272727;
+    padding-left: 60px;
+}
+nav ul{
+    height: 100%;
+}
+nav a{
+    color: #fff;
+    margin-top: 5px;
+}
+nav li:hover{
+    background-color: #484848;
+}
+nav a:hover{
+    color: #fff;
+}
+nav .row{
+    height: 100%;
+}
+nav .loginBtn {
+	height: 34px;
+	margin-top: 8px;
+	font-size: 15px;
+    background-color:#f33456;
 }
 /*--End header--*/
 
