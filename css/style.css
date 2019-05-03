@@ -6,6 +6,15 @@ body
     margin: 0;
     padding: 0;
 }
+.container {
+    margin: 0;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+}
+img {
+    width: inherit;
+}
 /*--start header--*/
 header{
     position: relative;
@@ -90,6 +99,10 @@ nav a{
 nav li:hover{
     background-color: #484848;
 }
+nav li.active{
+    background-color: #484848;
+}
+
 nav a:hover{
     color: #fff;
 }
@@ -105,5 +118,60 @@ nav .loginBtn {
 /*--End header--*/
 
 /*--start blood drive--*/
-
+.bloodDriveSec{
+    background: url('../img/bloodbags.jpg');
+    height: 450px;
+    background-size: cover;
+    width: 100%;
+}
+.bloodDriveSec div{
+    width: 50%;
+    display: block;
+    background-color: #415f77cc;
+    height: 100%;
+    text-align: center;
+    padding-top: 160px;
+    color: #fff;
+}
+.bloodDriveSec p{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.bloodDriveSec button{
+    margin-top: 40px;
+}
 /*--End blood drive--*/
+/*-- start services section --*/
+.servicesSec{
+    padding: 40px 70px;
+}
+.servicesSec h1{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-weight: bold;
+	color: #f33456;
+}
+.servicesSec .row .col-md-4 > div {
+    width: 86%;
+    box-shadow: #081a2433 1px 1px 5px;
+    border-radius: 6px;   
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+.servicesRow1 , .servicesRow2{
+    margin-bottom: 40px;
+}
+.servicesSec .col-md-9 p:first-of-type{
+    color: #2cb5ea;
+    font-size: 20px;
+    font-weight: bold;
+}
+.servicesSec .col-md-9 p:nth-of-type(2){
+    font-size: 15px;
+    opacity: .7;
+}
+.servicesSec .col-md-9 a {
+	color: #f33456;
+}
+/*-- end services section --*/
