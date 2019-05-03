@@ -104,58 +104,6 @@ nav .loginBtn {
 }
 /*--End header--*/
 
-/*--start container--*/
-.container 
-{
-	width: 700px;
-	margin: auto;
-}
-/*--end container--*/
 /*--start blood drive--*/
-.blooddrive 
-{
-	background-image: url(../img/bloodbags.jpg);
-	height: 414px;
-	width: 992px;
-    background-size: cover; 
-    overflow: auto;
-    margin-left: -168px;
-    opacity: 1.4;
-}
-.container .blooddrive section
-{
-	width:50%;
-	height: 100%;
-	float: left;
-	background-color: #a5a2d8;
-    opacity: 0.6;
-   text-align: center;
-}
-.container .blooddrive section div
-{
-	text-align: center;
-	word-spacing: 3px;
-	letter-spacing: 2px;
-	text-transform: capitalize;
-	padding-top: 170px;
-	line-height: 50px;
-	color: white;
-	font-size: xx-large;
-}
-.container .blooddrive section div .A
-{
-	color: red;
-}
-.container .blooddrive section div .B
-{
-	color: blue;
-}
-.container .blooddrive section .button 
-{
-	background-color: red;
-	margin-top: 19px;
-    width: 191px;
-    height: 41px;
-    color: white;   
-}
+
 /*--End blood drive--*/
