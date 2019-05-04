@@ -17,6 +17,7 @@ img {
 }
 .row
 {
+    height: 100%;
     margin-right: 0;
     margin-left: 0;
 }
@@ -91,7 +92,7 @@ header .headerRow2{
 }
 nav{
     height: 50px;
-    background-color: #272727;
+    background-color: #2d2d2d;
     padding-left: 60px;
 }
 nav ul{
@@ -227,4 +228,79 @@ nav .loginBtn {
 	position: absolute;
 	left: 16px;
 	bottom: 43px;
+}
+/*-- End stat section --*/
+.donateLocationSec{
+    padding: 60px 40px;
+}
+.donateLocationSec img {
+	width: 90%;
+	margin: 0 5%;
+}
+.donateLocationSec .col-md-5 div{
+    height: 60%;
+    margin: 20% 0;
+    width: 80%;
+}
+.donateLocationSec .col-md-5 h2{
+    font-weight: bold;
+    margin-bottom: 35px;    
+}
+.donateLocationSec .col-md-5 div p {
+    color: #969696;
+    margin-bottom: 2px
+}
+.donateLocationSec button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+}
+.donateLocationSec button i{
+ margin-left: 10px;   
+}
+/*-- End donate locatoin section --*/
+footer {
+	background-color: #2d2d2d;
+	padding: 60px 70px 10px 70px;
+    color: #fff;
+    height: 250px;
+}
+footer .col-md-6 > h4{
+    margin-bottom: 20px;
+}
+footer .col-md-6 > p{
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+footer .col-md-6 {
+	padding-right: 8%;
+}
+footer .col-md-6 button {
+	background-color: #2cb5ea;
+	color: #fff;
+	border-color: #2cb5ea;
+}
+footer .col-md-3 div h4 {
+	margin-bottom: 20px;
+}
+footer .col-md-3 div p {
+	margin-bottom: 0;
+	color: #b4b4b4;
+}
+footer .col-md-3 ul li {
+	display: inline;
+	padding: 0 16px;
+	border-right: 1px solid #484848;
+	font-size: 12px;
+	color: #8c8c8c;
+}
+footer .col-md-3 ul li:last-of-type{
+    border: none;
+}
+footer .col-md-3 ul {
+	position: absolute;
+	bottom: 0;
 }
