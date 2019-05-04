@@ -15,6 +15,11 @@ body
 img {
     width: inherit;
 }
+.row
+{
+    margin-right: 0;
+    margin-left: 0;
+}
 /*--start header--*/
 header{
     position: relative;
@@ -143,7 +148,7 @@ nav .loginBtn {
 /*--End blood drive--*/
 /*-- start services section --*/
 .servicesSec{
-    padding: 40px 70px;
+    padding: 40px 70px 10px 70px;
 }
 .servicesSec h1{
     text-align: center;
@@ -153,7 +158,7 @@ nav .loginBtn {
 	color: #f33456;
 }
 .servicesSec .row .col-md-4 > div {
-    width: 86%;
+    width: 97%;
     box-shadow: #081a2433 1px 1px 5px;
     border-radius: 6px;   
     padding: 20px 10px;
@@ -175,3 +180,51 @@ nav .loginBtn {
 	color: #f33456;
 }
 /*-- end services section --*/
+.statSec{
+    background: url('../img/medical-care-1.jpg');
+    background-size: cover;
+    height: 250px;
+    padding: 40px 70px;
+    background-position: center;
+    position: relative
+}
+.statSec .row .col-md-3 > div {
+	width: 86%;
+	margin: 0 auto;
+	color: #fff;
+}
+.statSec::before {
+	position: absolute;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	content: '';
+	bottom: 0;
+	right: 0;
+	opacity: .5;
+}
+.statSec > div{
+	margin-top: 28px;
+}
+.statSec i{
+    font-size: 26px;   
+}
+.statSec img{
+    width: 28px;
+}
+.statSec .col-md-9 > p:first-child{
+	font-size: 44px;
+	font-weight: bold;
+}
+.statSec .col-md-3 .col-md-3{
+    padding-top: 24px;
+}
+.statSec .col-md-9 > p:first-child::after {
+	content: '';
+	width: 50px;
+	height: 2px;
+	background-color: #2cb5ea;
+	position: absolute;
+	left: 16px;
+	bottom: 43px;
+}
