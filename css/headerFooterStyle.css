@@ -1,3 +1,27 @@
+body
+{
+ height: 1000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+}
+img {
+    width: inherit;
+}
+.row
+{
+    height: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /*--start header--*/
 header{
     position: relative;
