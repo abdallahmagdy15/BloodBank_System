@@ -1,0 +1,32 @@
+h2{
+	text-align: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+table, th, td
+{
+ border: 1px solid black;
+ border-collapse: collapse;
+
+}
+th, td
+ {
+  padding: 10px 30px;
+  text-align: center;
+ }
+ th
+  {
+  text-align: left;
+  font-size: large;
+  color: #cc0000;
+}
+table 
+{
+ font-family: "Times New Roman", "Times", "serif";
+  border-spacing: 5px;
+margin: 0 auto;
+ }
+.A
+{
+	border: none;
+}
