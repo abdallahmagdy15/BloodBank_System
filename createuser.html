@@ -1,0 +1,124 @@
+<!DOCTYPT HTML>
+    <html>
+        <head>
+            <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+             <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+   
+                <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  
+            <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+                <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+                
+                <style>
+                    body, #aa1 {font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;}
+                    .adapter {
+                     background: #3D5777;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    border-radius: 10px;
+                    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+                    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+                     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+                     width: 50%;
+                     margin: 0;
+                     left: 25%;
+                     position: absolute;
+                     color: white;
+                    
+                     }
+                     
+                     .write {
+                        
+                        padding: 5px;
+                        margin-left: 75px;
+                     }
+                      .c_u {
+                        text-align: left;
+                        padding: 5px;
+                        margin-left: 75px;                      
+                        margin-top: 50px;
+                        font-size: 20px;
+                     }
+                     .write label {
+                        font-size: 15px;
+                     }
+
+                     .write input {
+                        font-size: 15px;
+                        text-align: left;
+                        margin-left: 80px;
+                            outline: none;
+    margin: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 14px;
+    font-family: inherit;
+        line-height: 50px;
+    background: #fafafa;
+    -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 400px;
+                     }
+                     *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+input .btn btn--radius-2 btn--blue {
+        background: #E83C7E;
+        webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+                     
+                </style>
+        </head>
+         <body>
+            <div class="adapter">
+            <form class="form_f" method="post">
+                <p class="c_u"> Create User </p>
+                <br>
+                
+                <div class="write">
+                    <label> UserName </label>
+                    <div class="input-group">
+                    <input type="text"> </div> <br>
+                    
+                    <label> Name </label>
+                    <div class="input-group">
+                    <input type="text"> </div> <br>
+                    <label> Password </label>
+                    <div class="input-group">
+                    <input type="password"> </div> <br>
+                    <label> Roled </label>
+                    <div class="input-group">
+                    <input type="text"> </div>
+                    <div class="p-t-15">
+                    <button class="btn btn--radius-2 btn--blue" id="aa1" type="submit" style="background: #E83C7E;  webkit-border-radius: 5px; -moz-border-radius: 5px;
+                    border-radius: 5px; color: white; font-size: 25px; margin-top: 15px; border: none;">Create</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+    <script src="vendor/jquery/jquery.min.js"></script> 
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>        
+        </body>
+    </html>

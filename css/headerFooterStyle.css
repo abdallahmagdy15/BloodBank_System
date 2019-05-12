@@ -168,3 +168,6 @@ footer .col-md-3 ul {
 	position: absolute;
 	bottom: 0;
 }
+nav .col-md-4 {
+	padding-left: 100px;
+}
